@@ -1,6 +1,6 @@
 # Proyecto-Pozos-de-petroleo
 
-#Descripción del proyecto#
+# Descripción del proyecto #
 
 Trabajas en la compañía de extracción de petróleo OilyGiant. Tu tarea es encontrar los mejores lugares donde abrir 200 pozos nuevos de petróleo.
 
@@ -13,7 +13,7 @@ Elegir la región con el beneficio total más alto para los pozos petrolíferos 
 Tienes datos sobre muestras de crudo de tres regiones. Ya se conocen los parámetros de cada pozo petrolero de la región. Crea un modelo que ayude a elegir la región con el mayor margen de beneficio. Analiza los beneficios y riesgos potenciales utilizando la técnica bootstrapping.
 #
 
-#Condiciones:#
+# Condiciones: #
 
 Solo se debe usar la regresión lineal para el entrenamiento del modelo.
 Al explorar la región, se lleva a cabo un estudio de 500 puntos con la selección de los mejores 200 puntos para el cálculo del beneficio.
@@ -23,7 +23,7 @@ Después de la evaluación de riesgo, mantén solo las regiones con riesgo de p�
 Los datos son sintéticos: los detalles del contrato y las características del pozo no se publican.
 #
 
-#Descripción de datos#
+# Descripción de datos #
 
 Los datos de exploración geológica de las tres regiones se almacenan en archivos:
 
@@ -32,6 +32,6 @@ Los datos de exploración geológica de las tres regiones se almacenan en archiv
 /datasets/geo_data_2.csv. 
 id — identificador único de pozo de petróleo
 f0, f1, f2 — tres características de los puntos (su significado específico no es importante, pero las características en sí son significativas)
-#
+
 product — volumen de reservas en el pozo de petróleo (miles de barriles).
 #
